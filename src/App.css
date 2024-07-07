@@ -17,7 +17,8 @@
 
 .movieWrapper {
   position: relative; /* Agar lingkaran rating dapat berada di atas gambar */
-  width: 300px;
+  width: 200px;
+  height: 410px;
   background-color: #003554;
   color: black;
   padding: 10px;
@@ -74,14 +75,19 @@
   padding: 5px;
   border-radius: 5px;
   font-weight: bold;
-  z-index: 2; /* Agar teks rating tetap di atas latar belakang */
+  z-index: 2; /* Agar teks rating tetap di atas latar bel akang */
 }
 
-.movieTitle,
-.movieDate {
-  margin: 10px 0px;
+.movieTitle{
+  margin-top: 15px;
   font-weight: bold;
+  font-size: 14px;
   color: rgb(255, 255, 255);
+}
+
+.movieDate {
+  color: #fff;
+  margin-top: 15px;
 }
 
 .movieDate {
