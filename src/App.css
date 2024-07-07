@@ -58,7 +58,7 @@
 
 .movieWrapper:hover .ratingCircle {
   opacity: 1; /* Muncul saat dihover */
-  transform: translateX(40%); /* Geser ke kanan saat dihover */
+  transform: translateX(60%); /* Geser ke kanan saat dihover */
 }
 
 
